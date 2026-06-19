@@ -20,4 +20,3 @@ if ("IntersectionObserver" in window) {
 document.querySelectorAll(".reveal-card").forEach((el, i) => {
   el.style.transitionDelay = `${i * 0.1}s`;
 });
-
