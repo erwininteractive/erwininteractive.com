@@ -8,55 +8,6 @@
   .services { padding: 8rem 0; }
 }
 
-.trust-bar {
-  padding: 2rem 0;
-  background: var(--card);
-  border-bottom: 1px solid var(--border);
-}
-
-.trust-bar-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.25rem;
-  text-align: center;
-}
-
-@media (min-width: 768px) {
-  .trust-bar-inner {
-    flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
-  }
-}
-
-.trust-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: var(--foreground);
-  font-size: 0.875rem;
-  font-weight: 500;
-}
-
-.trust-item svg {
-  color: hsl(160 84% 39%);
-  flex-shrink: 0;
-}
-
-.trust-divider {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .trust-divider {
-    display: block;
-    width: 1px;
-    height: 1.25rem;
-    background: var(--border);
-  }
-}
-
 .section-bg-texture {
   position: absolute;
   inset: 0;
